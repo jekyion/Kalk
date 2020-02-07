@@ -5,10 +5,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define od(a,b) printf("%.2lf \n",a-b);
-#define do(a,b) printf("%.2lf \n",a+b);
-#define mn(a,b) printf("%.2lf \n",a*b);
-#define dziel(a,b) if(b!=0) printf("%.2lf \n",a/b);\
+#define od(a,b) printf("%.2lf \n",(a)-(b));
+#define do(a,b) printf("%.2lf \n",(a)+(b));
+#define mn(a,b) printf("%.2lf \n",(a)*(b));
+#define dziel(a,b) if(b!=0) printf("%.2lf \n",(a)/(b));\
 else printf("nie dzieli sie przez 0 \n");
 void rozm(int *r);
 void menu();
