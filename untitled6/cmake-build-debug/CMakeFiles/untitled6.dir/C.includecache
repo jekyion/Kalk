@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/kokso/CLionProjects/untitled6/func.c
+header.h
+/cygdrive/c/Users/kokso/CLionProjects/untitled6/header.h
+
+/cygdrive/c/Users/kokso/CLionProjects/untitled6/header.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/cygdrive/c/Users/kokso/CLionProjects/untitled6/main.c
+header.h
+/cygdrive/c/Users/kokso/CLionProjects/untitled6/header.h
+
